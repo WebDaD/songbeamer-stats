@@ -1,0 +1,27 @@
+{
+  "name": "songbeamer-stats",
+  "version": "1.0.0",
+  "license": "The Unlicense",
+  "repository": "WebDaD/songbeamer-stats",
+  "author": {
+    "email": "dominik.sigmund@webdad.eu",
+    "name": "Dominik Sigmund",
+    "url": "https://github.com/WebDaD"
+  },
+  "files": [
+    "app.js"
+  ],
+  "keywords": [
+    "songbeamer",
+    "stats",
+    "csv",
+    "cli"
+  ],
+  "dependencies": {
+    "lib-songbeamer": "*",
+    "commander":"*",
+    "recursive-readdir":"*",
+    "async":"*",
+    "moment":"*"
+  }
+}
