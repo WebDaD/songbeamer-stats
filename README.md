@@ -16,6 +16,10 @@ We are using Excel (argh) to produce diagrams and stats...
 
 `node app.js -a [Folder] -o [CSV]`
 
+My Example for my Files:
+
+`node .\app.js -a .\ablaufplans\ -r -o .\output\all.csv -m t -t 'YYYY[_]MM[_]DD[_Ablaufplan]' -p`
+
 ### Parameters
 
 * -a = The Folder with the col-Files
@@ -30,6 +34,8 @@ We are using Excel (argh) to produce diagrams and stats...
 * -d = Delimeter. By Default ';'
 * -n = Newline. By Default '\n'
 * -h = Header. toggle to Print the Header Line.
+
+
 
 ### Resulting CSV
 
