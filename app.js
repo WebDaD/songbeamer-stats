@@ -130,7 +130,7 @@ function files2CSV (files, callback) {
           file += song.date + program.delimeter + song.name + program.newline
         }
       }
-      fs.writeFile(program.output, file, function (err) {
+      fs.writeFile(program.output, file, 'utf8', function (err) {
         if (err) {
           callback(err)
         } else {
